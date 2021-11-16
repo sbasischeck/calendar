@@ -4,20 +4,17 @@ title: About
 permalink: /about/
 ---
 
-{% for collection in site.collections %}
-<h2>Collection {{collection.label}}</h2>
--{{collection.directory}}-<br/>
-{{collection.docs | size}}
-{{collection.files | size}}
-{% endfor %}
+# Testseite als Übersicht über SAP Stammtische
 
-<hr>
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Seite als Github Page mit Theme Calendar
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Aufruf über: [https://sbasischeck.github.io/calendars/](https://sbasischeck.github.io/calendars/)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Ziel
+
+Tests für eine Overview Seite für SAP Stammtische, gehostet auf Github
+
+Schwerpunkte:
+
+- als Dateien hier im repo, hier als statische Seite aus Dateien aus Odrnern _events und _posts
+- als WiKi Seiten [https://github.com/sbasischeck/calendars/wiki](https://github.com/sbasischeck/calendars/wiki)
